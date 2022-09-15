@@ -1,0 +1,19 @@
+{
+    "liveSassCompile.settings.formats":[
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/media/templates/site/cassiopeia_child/css"
+        },
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/media/templates/site/cassiopeia_child/css"
+        }
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.includeItems": [
+        "/media/templates/site/cassiopeia_child/scss/template.scss",
+        "/media/templates/site/cassiopeia_child/scss/template-rtl.scss"
+    ]
+}

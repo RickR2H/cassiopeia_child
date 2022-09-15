@@ -1,0 +1,17 @@
+{
+    "configs":
+    [
+        {
+            "name":"sync-files",
+            "enabled":true,
+            "sync":
+            [
+                {
+                    "src":"ABSOLUTE PATH TO/media/templates/site/cassiopeia_child",
+                    "dest":"ABSOLUTE PATH TO/templates/cassiopeia_child/media",
+                    "bidir":true
+                }
+            ]
+        }
+    ]
+}

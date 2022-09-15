@@ -1,0 +1,63 @@
+// Override default Cassiopeia colors
+//-----------------------------------------------------------------------
+$standard-color-primary:              #112855;
+$standard-color-link:                 lighten($standard-color-primary, 10%);
+$standard-color-hover:                lighten($standard-color-primary, 5%);
+
+// Override default bootstrap colors
+//-----------------------------------------------------------------------
+$primary:                             $standard-color-primary;
+$primaryBS:                           $standard-color-primary;
+$secondary:                           grey;
+$success:                             green;
+$info:                                cyan;
+$warning:                             orange;
+$danger:                              red;
+$light:                               silver;
+$dark:                                darkslategray;
+
+// Adding black and white as theme colors
+//-----------------------------------------------------------------------
+$theme-colors: (
+  primary:                            $primaryBS,
+  secondary:                          $secondary,
+  success:                            $success,
+  info:                               $info,
+  warning:                            $warning,
+  danger:                             $danger,
+  light:                              $light,
+  dark:                               $dark,
+  "white":                            #fff, // ADDED EXTRA WHITE COLOR
+  "black":                            #000, // ADDED EXTRA BLACK COLOR
+);
+
+$enable-negative-margins: true; // Set negative margins to true
+$enable-shadows: true; // Set the shadow classes to true
+
+// Create some extra margin / padding utilities
+//-----------------------------------------------------------------------
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7
+);
+
+// Override the default Cassiopeia CSS custom properties
+//-----------------------------------------------------------------------
+:root {
+  --cassiopeia-color-primary: #{$standard-color-primary};
+  --cassiopeia-color-link: #{$standard-color-link};
+  --cassiopeia-color-hover: #{$standard-color-hover};
+}
+
+// Import the default Cassiopeia template.scss
+//-----------------------------------------------------------------------
+@import "../../cassiopeia/scss/template";
