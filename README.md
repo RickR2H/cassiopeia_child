@@ -1,6 +1,6 @@
-# Setup VScode for Child theme SCSS compiling
+# Setup VScode for Joomla child theme SCSS compiling
 
-## Creating the child theme
+## Creating the Joomla child theme
 In my example I've created a Joomla child theme with the name of "child". The name of the new theme is "cassiopeia_child"
 
 ## Setup VScode
