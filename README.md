@@ -28,3 +28,5 @@ To start compiling the CSS just click the "Watch Sass" button on the bottom righ
 - Make sure all the folder in the templates media folder are not empty. I used .keep files for that. This will also add the empty folders to a git repo.
 - The template-rtl.scss is only compiled when you start the Sass watcher or when the template-rtl.scss is saved. When the site goes to production, make sure you template-rtl.scss is create (Just save the file once or turn the compiler on and off again)
 - I've made some small modifications to the templateDetails.xml. I added the .vscode folder to the installation.
+
+Youtube link to video: [https://github.com/RickR2H/cassiopeia_child](https://www.youtube.com/watch?v=lIli9zzOrg0)
