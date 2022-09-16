@@ -26,9 +26,7 @@ $theme-colors: (
   warning:                            $warning,
   danger:                             $danger,
   light:                              $light,
-  dark:                               $dark,
-  "white":                            #fff, // ADDED EXTRA WHITE COLOR
-  "black":                            #000, // ADDED EXTRA BLACK COLOR
+  dark:                               $dark
 );
 
 $enable-negative-margins: true; // Set negative margins to true
