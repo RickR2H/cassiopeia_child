@@ -16,19 +16,8 @@ $danger:                              red;
 $light:                               silver;
 $dark:                                darkslategray;
 
-// Adding black and white as theme colors
+// Set Bootstrap options
 //-----------------------------------------------------------------------
-$theme-colors: (
-  primary:                            $primaryBS,
-  secondary:                          $secondary,
-  success:                            $success,
-  info:                               $info,
-  warning:                            $warning,
-  danger:                             $danger,
-  light:                              $light,
-  dark:                               $dark
-);
-
 $enable-negative-margins: true; // Set negative margins to true
 $enable-shadows: true; // Set the shadow classes to true
 
