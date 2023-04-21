@@ -6,15 +6,74 @@ $standard-color-hover:                lighten($standard-color-primary, 5%);
 
 // Override default bootstrap colors
 //-----------------------------------------------------------------------
+$white:                               hsl(0, 0%, 100%);
+$gray-100:                            hsl(210, 17%, 98%);
+$gray-200:                            hsl(210, 16%, 93%);
+$gray-300:                            hsl(210, 14%, 89%);
+$gray-400:                            hsl(210, 14%, 83%);
+$gray-500:                            hsl(210, 11%, 71%);
+$gray-600:                            hsl(210, 7%, 46%);
+$gray-700:                            hsl(210, 9%, 31%);
+$gray-800:                            hsl(210, 10%, 23%);
+$gray-900:                            hsl(210, 11%, 15%);
+$black:                               hsl(0, 0%, 0%);
+
+$grays: (
+  100:                                $gray-100,
+  200:                                $gray-200,
+  300:                                $gray-300,
+  400:                                $gray-400,
+  500:                                $gray-500,
+  600:                                $gray-600,
+  700:                                $gray-700,
+  800:                                $gray-800,
+  900:                                $gray-900
+);
+
+$blue:                                hsl(240, 98%, 17%);
+$indigo:                              hsl(263, 90%, 51%);
+$purple:                              hsl(261, 51%, 51%);
+$pink:                                hsl(332, 79%, 58%);
+$red:                                 hsl(3, 75%, 37%);
+$orange:                              hsl(27, 98%, 54%);
+$yellow:                              hsl(34, 100%, 34%);
+$green:                               hsl(120, 32%, 39%);
+$teal:                                hsl(194, 66%, 61%);
+$cyan:                                hsl(207, 49%, 37%);
+
+$colors: (
+  "blue":                             $blue,
+  "indigo":                           $indigo,
+  "purple":                           $purple,
+  "pink":                             $pink,
+  "red":                              $red,
+  "orange":                           $orange,
+  "yellow":                           $yellow,
+  "green":                            $green,
+  "teal":                             $teal,
+  "cyan":                             $cyan,
+  "white":                            $white
+);
+
 $primary:                             $standard-color-primary;
-$primaryBS:                           $standard-color-primary;
-$secondary:                           grey;
-$success:                             green;
-$info:                                cyan;
-$warning:                             orange;
-$danger:                              red;
-$light:                               silver;
-$dark:                                darkslategray;
+$secondary:                           hsl(210, 7%, 46%);
+$success:                             hsl(34, 100%, 34%);
+$info:                                hsl(207, 49%, 37%);
+$warning:                             hsl(27, 98%, 54%);
+$danger:                              hsl(3, 75%, 37%);
+$light:                               hsl(210, 17%, 98%);
+$dark:                                hsl(0, 0%, 12%);
+
+$theme-colors: (
+  primary:                            $standard-color-primary,
+  secondary:                          $secondary,
+  success:                            $success,
+  info:                               $info,
+  warning:                            $warning,
+  danger:                             $danger,
+  light:                              $light,
+  dark:                               $dark
+);
 
 // Set Bootstrap options
 //-----------------------------------------------------------------------
