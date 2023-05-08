@@ -11,7 +11,9 @@ To make maintance easy I automatically copy the folders and files from **media/t
 To copy the files automatically I use the extension FileSync:
 https://marketplace.visualstudio.com/items?itemName=pgmjah.filesync (example configuration files is present in the .vscode folder)
 
-Note: the files are only copied. When working on SCSS files use the **media/templates/site/cassiopeia_child/scss** folder.
+Note: the files are only copied when a SCSS file in the **media/templates/site/cassiopeia_child/scss** folder is saved.
+
+If you dont want to use an extension for copying file, you could use a sym-link / junction to keep the files the same om two locations. Git will recognise the junction files as actual files.
 
 ## Setup the development environment
 - Install Joomla on your local server
@@ -26,7 +28,7 @@ To start compiling the CSS just click the "Watch Sass" button on the bottom righ
 
 ## Good to know:
 - Make sure all the folder in the templates media folder are not empty. I used .keep files for that. This will also add the empty folders to a git repo.
-- The template-rtl.scss is only compiled when you start the Sass watcher or when the template-rtl.scss is saved. When the site goes to production, make sure you template-rtl.scss is create (Just save the file once or turn the compiler on and off again)
-- I've made some small modifications to the templateDetails.xml. I added the .vscode folder to the installation.
+- The template-rtl.scss is only compiled when you start the Sass watcher or when the template-rtl.scss is saved. When the site goes to production, make sure you template-rtl.scss is create (Just save the file once or turn the compiler off and on again)
+- I've made some small modifications to the templateDetails.xml. I added the .vscode folder to the installation so files are not lost on installing.
 
 Youtube link to video: https://www.youtube.com/watch?v=lIli9zzOrg0
